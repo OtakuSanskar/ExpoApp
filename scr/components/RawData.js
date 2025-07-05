@@ -49,4 +49,4 @@ export const ArrayColors = [
         name: "NavajoWhite",
         rgb: "rgb(255, 222, 173)"
     }
-]
+];

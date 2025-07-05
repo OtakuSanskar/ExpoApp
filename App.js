@@ -5,7 +5,7 @@ import {
   StyleSheet,
   FlatList
 } from "react-native";
-import { ArrayColors } from "./src/components/RawData";
+import ArrayColors from "./src/components/RawData";
 import ColorBox from "./src/components/ColorBox";
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
     </Text>
   }
   />
-}
+};
 
 
 export default App;
