@@ -2,8 +2,7 @@ import React from "react";
 import {
   View,
   Text,
-  StyleSheet,
-  SafeAreaView
+  StyleSheet
 } from "react-native";
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import {View, Text, StyleSheet, SafeAreaView} from "react-native";
-import ColorBox from "./scr/components/ColorBox";
+import ColorBox from "./src/components/ColorBox";
 
 
 const App = () => {
