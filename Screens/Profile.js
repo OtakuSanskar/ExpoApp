@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text, Button} from "react-native";
 
-const Home = ({navigation}) => {
+const Profile = ({navigation}) => {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>Home Screen</Text>
-            <Button title="Details" onPress={() => navigation.navigate('Profile')}/>
+            <Text>Profile Screen</Text>
+            <Button title="Home" onPress={() => navigation.navigate('Home')}/>
         </View>
     );
 };
-export default Home;
+export default Profile;
